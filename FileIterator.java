@@ -9,6 +9,7 @@ public class FileIterator implements SubmissionIterator {
     private int position = 0;
 
     public FileIterator(List<File> submissions){
+        this.submissions= new ArrayList<>(submissions);
         this.submissions = submissions;
     }
 
