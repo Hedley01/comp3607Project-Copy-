@@ -10,7 +10,6 @@ public class FileIterator implements SubmissionIterator {
 
     public FileIterator(List<File> submissions){
         this.submissions= new ArrayList<>(submissions);
-        this.submissions = submissions;
     }
 
     public boolean hasNext(){
